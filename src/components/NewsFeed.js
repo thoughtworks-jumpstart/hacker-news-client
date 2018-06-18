@@ -10,8 +10,7 @@ class NewsFeed extends Component {
 
   render() {
     return this.state.articles.map((article, i) => {
-      // TODO: start coding!
-      return <li key={i}></li>;
+      
     });
   }
 }
